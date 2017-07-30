@@ -1,0 +1,135 @@
+
+/*This makes all the items in the top navigation bar appear correctly.*/
+/*Makes the Header*/
+header {
+  background-color: #FFFFFF;
+  /*background-color: grey;*/
+  position: fixed;
+  /*box-sizing:border-box;*/
+  margin-bottom: 3px;
+  margin-top: -10px;
+  width: 85%;
+  margin-left: 15%;
+  padding: 10px;
+
+/*This makes a temporary border to visualize the header box.*/
+  border: 1pt black solid;
+  border-width: 1pt;
+  border-color: black;
+}
+
+/*This makes the nav a flex box.*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/*This makes the header fonts inside element a.*/
+a {
+  font-family: Times;
+  font-size: 15pt;
+  color: black;
+  margin: 10pt;
+  padding-left: 20pt;
+  text-decoration: none;
+}
+
+/*Makes the active link a different color.*/
+.bright {
+  color: #968772 !important;
+}
+
+
+/*This makes the left side-bar work.*/
+#left-side-bar{
+  background-color: grey;
+  /*background-image: url();*/
+  background-position: top left,	top left;
+  background-repeat: repeat,	no-repeat;
+  background-size: auto,auto 100%;
+  box-sizing:border-box;
+  /*color: rgba(0, 0, 0, 0);*/
+  height: 100%;
+  left: 0;
+  padding: 8em 4em 0 0;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 15%;
+}
+
+/*This makes the side-bar profile image work.*/
+/*#profile-Picture */
+#left-side-bar > img{
+margin-top: -36%;
+margin-left: 13%;
+/*float:left;*/
+height: 120px;
+width: 120px;
+}
+
+#left-side-bar > p {
+  font-size: 1.00em;
+  line-height: 0.2em;
+  position: relative;
+  margin-left: 13%;
+  width: 120px;
+}
+
+
+
+/*This makes the buttons box appear.*/
+#center-items {
+margin-top: 0;
+margin-left:400px;
+padding: 70px;
+position: relative;
+z-index: 40;
+
+}
+
+
+/*This changes the page format in tablet-sized view.*/
+@media screen and (max-width: 945px) {
+/*style?*/
+header{
+  width: 100%;
+  margin-left: -10px;
+  padding: 10px;
+
+/*This makes a temporary border to visualize the header box.*/
+  border: 1pt black solid;
+  border-width: 1pt;
+  border-color: blue;
+}
+
+#left-side-bar{
+  background-color: grey;
+  /*background-image: url();*/
+  background-position: center,	top left;
+  margin-top: 70px;
+  display: inline;
+  height: 160px;
+  left: 0;
+  padding: 8em 4em 0 0;
+  position: fixed;
+  text-align: left;
+  width: 100%;
+}
+
+
+#left-side-bar > p {
+float: right;
+}
+#profile-picture {
+display: inline;
+}
+
+
+
+
+
+
+
+}
