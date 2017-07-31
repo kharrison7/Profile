@@ -62,9 +62,10 @@ a {
 /*This makes the side-bar profile image work.*/
 /*#profile-Picture */
 #left-side-bar > img{
-margin-top: -36%;
-margin-left: 13%;
-/*float:left;*/
+margin-top: -50px;
+margin-left: 10px;
+position: relative;
+float: left;
 height: 120px;
 width: 120px;
 }
@@ -73,9 +74,17 @@ width: 120px;
   font-size: 1.00em;
   line-height: 0.2em;
   position: relative;
-  margin-left: 13%;
-  width: 120px;
+  position: relative;
+  margin-left: -20px;
+  width: 150px;
+  float: left;
+  wrap: nowrap;
 }
+
+
+
+
+
 
 
 
@@ -118,9 +127,13 @@ header{
   width: 100%;
 }
 
+#left-side-bar > img{
+margin-top: -105px;
+}
 
 #left-side-bar > p {
-float: right;
+  margin-left: 40px;
+float: left;
 }
 #profile-picture {
 display: inline;
