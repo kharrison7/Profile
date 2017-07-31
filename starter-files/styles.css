@@ -70,7 +70,7 @@ height: 120px;
 width: 120px;
 }
 
-
+/*This adjusts the Kevin Harrison and Web Developer.*/
 #name-ID > p {
   font-size: 1.00em;
   line-height: 0.2em;
@@ -107,6 +107,7 @@ header{
   border-color: blue;
 }
 
+/*This pops the left side bar up to the top.*/
 #left-side-bar{
   background-color: grey;
   /*background-image: url();*/
@@ -121,10 +122,12 @@ header{
   width: 100%;
 }
 
+/*This adjusts the profile image locations*/
 #left-side-bar > img{
 margin-top: -105px;
 }
 
+/*This moves the Kevin Harrison and Web Developer Text.*/
 #name-ID {
  display: flex;
  flex-direction: column;
@@ -135,9 +138,9 @@ margin-top: -105px;
  margin-left: 170px;
 }
 
-#profile-picture {
+/*#profile-picture {
  display: inline;
-}
+}*/
 
 
 
