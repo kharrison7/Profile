@@ -70,21 +70,16 @@ height: 120px;
 width: 120px;
 }
 
-#left-side-bar > p {
+
+#name-ID > p {
   font-size: 1.00em;
   line-height: 0.2em;
-  position: relative;
   position: relative;
   margin-left: -20px;
   width: 150px;
   float: left;
   wrap: nowrap;
 }
-
-
-
-
-
 
 
 
@@ -95,7 +90,6 @@ margin-left:400px;
 padding: 70px;
 position: relative;
 z-index: 40;
-
 }
 
 
@@ -131,12 +125,18 @@ header{
 margin-top: -105px;
 }
 
-#left-side-bar > p {
-  margin-left: 40px;
-float: left;
+#name-ID {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-content: center;
+ margin-top: -80px;
+ line-height: 0;
+ margin-left: 170px;
 }
+
 #profile-picture {
-display: inline;
+ display: inline;
 }
 
 
