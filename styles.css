@@ -1,148 +1,55 @@
-
-/*This makes all the items in the top navigation bar appear correctly.*/
-/*Makes the Header*/
-header {
-  background-color: #FFFFFF;
-  /*background-color: grey;*/
-  position: fixed;
-  /*box-sizing:border-box;*/
-  margin-bottom: 3px;
-  margin-top: -10px;
-  width: 85%;
-  margin-left: 15%;
-  padding: 10px;
-
-/*This makes a temporary border to visualize the header box.*/
-  border: 1pt black solid;
-  border-width: 1pt;
-  border-color: black;
+/*This controls the profile image.*/
+.img-circle {
+    border-radius: 50%;
+    width: 120pt;
+    height: 120pt;
+    margin-left: 45%;
 }
 
-/*This makes the nav a flex box.*/
-nav {
+/*This controls The Basics text.*/
+.title1 > p {
+  line-height: 5pt;
+}
+
+/*This controls The Basics box.*/
+.title1 {
+  margin-left: 80pt;
+}
+
+/*This controls The Story and content.*/
+.title2{
+  width: 30%;
+}
+
+/*This controls the story.*/
+.title2 > h2 {
+  margin-left: 8%;
+  padding-left: 8%;
+}
+
+/*This controls the story text.*/
+.title2 > p {
+  border-left: 2px solid #C8C8C8;
+  margin-left: 8%;
+  padding-left: 8%;
+  line-height: 15pt;
+}
+
+/*This holds the three items.*/
+.box_of_three{
+  margin-top: 20pt;
+  box-sizing: border-box;
   display: flex;
+  /*justify-content: space-around;*/
+}
+
+/*This controls the header.*/
+.your_name{
+  width: 100%;
+  color: white;
+  background: #5499C7;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-}
-
-/*This makes the header fonts inside element a.*/
-a {
-  font-family: Times;
-  font-size: 15pt;
-  color: black;
-  margin: 10pt;
-  padding-left: 20pt;
-  text-decoration: none;
-}
-
-/*Makes the active link a different color.*/
-.bright {
-  color: #968772 !important;
-}
-
-
-/*This makes the left side-bar work.*/
-#left-side-bar{
-  background-color: grey;
-  /*background-image: url();*/
-  background-position: top left,	top left;
-  background-repeat: repeat,	no-repeat;
-  background-size: auto,auto 100%;
-  box-sizing:border-box;
-  /*color: rgba(0, 0, 0, 0);*/
-  height: 100%;
-  left: 0;
-  padding: 8em 4em 0 0;
-  position: fixed;
-  text-align: right;
-  top: 0;
-  width: 15%;
-}
-
-/*This makes the side-bar profile image work.*/
-/*#profile-Picture */
-#left-side-bar > img{
-margin-top: -50px;
-margin-left: 10px;
-position: relative;
-float: left;
-height: 120px;
-width: 120px;
-}
-
-/*This adjusts the Kevin Harrison and Web Developer.*/
-#name-ID > p {
-  font-size: 1.00em;
-  line-height: 0.2em;
-  position: relative;
-  margin-left: -20px;
-  width: 150px;
-  float: left;
-  wrap: nowrap;
-}
-
-
-
-/*This makes the buttons box appear.*/
-#center-items {
-margin-top: 0;
-margin-left:400px;
-padding: 70px;
-position: relative;
-z-index: 40;
-}
-
-
-/*This changes the page format in tablet-sized view.*/
-@media screen and (max-width: 945px) {
-/*style?*/
-header{
-  width: 100%;
-  margin-left: -10px;
-  padding: 10px;
-
-/*This makes a temporary border to visualize the header box.*/
-  border: 1pt black solid;
-  border-width: 1pt;
-  border-color: blue;
-}
-
-/*This pops the left side bar up to the top.*/
-#left-side-bar{
-  background-color: grey;
-  /*background-image: url();*/
-  background-position: center,	top left;
-  margin-top: 70px;
-  display: inline;
-  height: 160px;
-  left: 0;
-  padding: 8em 4em 0 0;
-  position: fixed;
-  text-align: left;
-  width: 100%;
-}
-
-/*This adjusts the profile image locations*/
-#left-side-bar > img{
-margin-top: -105px;
-}
-
-/*This moves the Kevin Harrison and Web Developer Text.*/
-#name-ID {
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- align-content: center;
- margin-top: -80px;
- line-height: 0;
- margin-left: 170px;
-}
-
-
-
-
-
-
-
-
+  align-content: center;
 }
