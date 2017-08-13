@@ -37,6 +37,7 @@
 
 /*This holds the three items.*/
 .box_of_three{
+  width: 80%;
   margin-top: 20pt;
   box-sizing: border-box;
   display: flex;
@@ -58,4 +59,23 @@
 a {
   text-decoration: none;
   color: #5499C7;
+}
+
+/*This controls each button container.*/
+.project_example{
+  border-radius: 10%;
+  margin:10pt;
+  padding: 10pt;
+  width: 100pt;
+  height: 100pt;
+  border: 1pt solid blue;
+}
+
+/*This controls the box of projects*/
+.box_of_projects{
+  width: 80%;
+  margin-top: 20pt;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
 }

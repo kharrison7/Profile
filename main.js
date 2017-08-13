@@ -22,7 +22,6 @@ else{
   email_address = data.email;
 }
 
-
 let website ='';
 if (data.blog === 'https://kharrison7.github.io/Profile/'){
   website = "You Are Here";
@@ -36,13 +35,10 @@ else{
                   <div class="your_name">
                     <h1>${data.name}, Web Developer</h1>
                   </div>
-
-               <div class="box_of_three">
-
+              <div class="box_of_three">
                <div class="profile_Image">
                    <img class="img-circle" src="${data.avatar_url}" alt="profile_pic"/>
                </div>
-
                 <div class="title1">
                   <h2>Contact Information</h2>
                   <p>Name: ${data.name}</p>
@@ -51,31 +47,31 @@ else{
                   <p>Company: ${data.company}</p>
                   <p>Website: <a href="${data.blog}" class="bright">${website}</a></p>
                 </div>
-
                 <div class="title2">
                   <h2>About</h2>
                   <p>I'm a full stack developer working primarily in JavaScript. I am currently learning at the Iron Yard in Durham, NC.</p>
                 </div>
-
-               </div>
+              </div>
 
                  <br>
                  <hr>
 
-               <div class="box_of_three">
-                 <div class="buttons_box">
-
-                 <p>Projects:</p>
+               <div class="box_of_projects">
+                 <h2>My Projects</h2>
                  <div class="project_example">
-                   <p>Play a memory tile game.</p>
-                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';"" value="Click">
+                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';" value="Memory Matching">
+                   <p>Play a memory matching tile game.</p>
                  </div>
-
+                 <div class="project_example">
+                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/iTunes-Music-Search/';" value="Itunes Music Search">
+                   <p>Search itunes for your favorite music.</p>
+                 </div>
+                 <div class="project_example">
+                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/week-one-project/';" value="Bent Creek Ceramics">
+                   <p>View a website template.</p>
                  </div>
                </div>
-
                `
-
               document.body.innerHTML = markup;
               });
 })
