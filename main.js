@@ -22,6 +22,15 @@ else{
   email_address = data.email;
 }
 
+
+let website ='';
+if (data.blog === 'https://kharrison7.github.io/Profile/'){
+  website = "You Are Here";
+}
+else{
+  website = data.blog;
+}
+
 // This makes the items appear on the page.
       let markup = `
                   <div class="your_name">
@@ -40,7 +49,7 @@ else{
                   <p>Github URL: <a href="${data.html_url}" class="bright">${data.login}</a></p>
                   <p>Email: ${email_address}</p>
                   <p>Company: ${data.company}</p>
-                  <p>Website: <a href="${data.blog}" class="bright">${data.blog}</a></p>
+                  <p>Website: <a href="${data.blog}" class="bright">${website}</a></p>
                 </div>
 
                 <div class="title2">
@@ -48,7 +57,24 @@ else{
                   <p>I'm a full stack developer working primarily in JavaScript. I am currently learning at the Iron Yard in Durham, NC.</p>
                 </div>
 
-               </div>`
+               </div>
+
+                 <br>
+                 <hr>
+
+               <div class="box_of_three">
+                 <div class="buttons_box">
+
+                 <p>Projects:</p>
+                 <div class="project_example">
+                   <p>Play a memory tile game.</p>
+                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';"" value="Click">
+                 </div>
+
+                 </div>
+               </div>
+
+               `
 
               document.body.innerHTML = markup;
               });
