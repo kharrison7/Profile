@@ -59,17 +59,24 @@ else{
                <div class="box_of_projects">
                  <h2>My Projects</h2>
                  <div class="project_example">
-                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';" value="Memory Matching">
+                   <input type="button" class="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';" value="Memory Matching">
                    <p>Play a memory matching tile game.</p>
                  </div>
                  <div class="project_example">
-                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/iTunes-Music-Search/';" value="Itunes Music Search">
+                   <input type="button" class="search_button" onclick="location.href='https://kharrison7.github.io/iTunes-Music-Search/';" value="Itunes Music Search">
                    <p>Search itunes for your favorite music.</p>
                  </div>
                  <div class="project_example">
-                   <input type="button" id="search_button" onclick="location.href='https://kharrison7.github.io/week-one-project/';" value="Bent Creek Ceramics">
-                   <p>View a website template.</p>
+                   <input type="button" class="search_button" onclick="location.href='https://kharrison7.github.io/week-one-project/';" value="Bent Creek Ceramics">
+                   <p>View a mockup website template.</p>
                  </div>
+               </div>
+
+               <div class="box_of_links">
+                <div>
+                  <a href="https://www.linkedin.com/in/kevin-harrison-00461248/"><img class="linked_in" src="images/icons/linkedinimg.png"></a>
+                  <a href="https://www.theironyard.com/"><img class="linked_in" src="images/icons/tiy.jpg"></a>
+                </div>
                </div>
                `
               document.body.innerHTML = markup;
