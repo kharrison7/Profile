@@ -104,11 +104,12 @@ a:hover {
 	background : -ms-linear-gradient(top, #3b79f5 0%, #7aa824 100%);
 	background : linear-gradient(top, #3b79f5 0%, #7aa824 100%);
 	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b79f5', endColorstr='#7aa824',GradientType=0 );
-
 }
 
 /*This controls the box of links.*/
 .box_of_links{
+  margin-top: 90%;
+  position: fixed;
   background-color: #CCD1D1;
   height: 70px;
   width: 100%;
