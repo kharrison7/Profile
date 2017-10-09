@@ -55,11 +55,10 @@
   line-height: 15pt;
 }
 
+/*This controls the resume position*/
 .title2 > a {
-  /*border-left: 2px solid #C8C8C8;*/
   margin-left: 8%;
   padding-left: 8%;
-  /*line-height: 15pt;*/
 }
 
 /*This holds the three items.*/
@@ -115,12 +114,12 @@ a:hover {
 
 /*This controls the box of links.*/
 .box_of_links{
-  margin-top: 90%;
-  position: fixed;
+  margin-top: 20pt;
+  margin-left: -5%;
+  position: relative;
   background-color: #CCD1D1;
   height: 70px;
-  width: 100%;
-  margin-top: 10pt;
+  width: 110%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -133,6 +132,7 @@ a:hover {
   height: 50px;
 }
 
+/*This makes some text white.*/
 .white-text {
   color: white;
 }
