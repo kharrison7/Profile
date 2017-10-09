@@ -50,6 +50,7 @@ else{
                 <div class="title2">
                   <h2>About</h2>
                   <p>I'm a full stack developer working primarily in JavaScript. I am currently learning at the Iron Yard in Durham, NC.</p>
+                  <a href="Kevin.Harrison.Resume.pdf">Resume</a>
                 </div>
               </div>
 
