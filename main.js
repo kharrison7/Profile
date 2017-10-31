@@ -64,16 +64,16 @@ else{
                <div class="box_of_projects">
                  <h2>My Projects</h2>
                  <div class="project_example">
+                   <input type="button" class="search_button" onclick="location.href='https://canigrow.github.io/canigrow-frontend/';" value="Can-I-Grow">
+                   <p>A website to assist budding gardeners.</p>
+                 </div>
+                 <div class="project_example">
                    <input type="button" class="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';" value="Memory Matching">
                    <p>Play a memory matching tile game.</p>
                  </div>
                  <div class="project_example">
                    <input type="button" class="search_button" onclick="location.href='https://word-guess-08-31.herokuapp.com';" value="Word Guess">
                    <p>Play a hangman style word guessing game.</p>
-                 </div>
-                 <div class="project_example">
-                   <input type="button" class="search_button" onclick="location.href='https://tiy-durham-etsy-project.github.io/Etsy-group-project';" value="Etsy Project">
-                   <p>View a recreation of Etsy using React.</p>
                  </div>
                </div>
 
