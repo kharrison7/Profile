@@ -1,5 +1,4 @@
 console.log("JS on");
-console.log("JS connected");
 
 fetch('https://api.github.com/users/kharrison7')
   .then(
