@@ -1,1 +1,3 @@
-This is a readme for the profile page.
+This is Kevin Harrison's first profile page.
+
+deployed: https://kharrison7.github.io/Profile/
