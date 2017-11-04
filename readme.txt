@@ -1,3 +1,3 @@
-This is Kevin Harrison's first profile page.
+This profile page is built to display some of my projects.
 
 deployed: https://kharrison7.github.io/Profile/
