@@ -62,10 +62,18 @@ else{
 
                <div class="box_of_projects">
                  <h2>My Projects</h2>
+
+                 <!-- <div class="project_example">
+                    <input type="button" class="search_button" onclick="location.href='https://canigrow.github.io/canigrow-frontend/';" value="Can-I-Grow">
+                    <p>A website to assist budding gardeners.</p>
+                 </div> -->
+
                  <div class="project_example">
-                   <input type="button" class="search_button" onclick="location.href='https://canigrow.github.io/canigrow-frontend/';" value="Can-I-Grow">
-                   <p>A website to assist budding gardeners.</p>
+                   <input type="button" class="search_button" onclick="location.href='http://www.durhaminternalmedicalassociates.com/';" value="Medical Associates">
+                   <p>A website for a local medical practice hosted using Amazon Web Services.</p>
                  </div>
+
+
                  <div class="project_example">
                    <input type="button" class="search_button" onclick="location.href='https://kharrison7.github.io/memory-game/';" value="Memory Matching">
                    <p>Play a memory matching tile game.</p>
