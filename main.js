@@ -61,7 +61,7 @@ else{
                  <hr>
 
                <div class="box_of_projects">
-                 <h2>My Projects</h2>
+                 <h2 class="my_projects">My Projects</h2>
 
                  <!-- <div class="project_example">
                     <input type="button" class="search_button" onclick="location.href='https://canigrow.github.io/canigrow-frontend/';" value="Can-I-Grow">
