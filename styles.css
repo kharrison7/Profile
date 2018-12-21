@@ -195,24 +195,28 @@ a:hover {
     margin-top: 20pt;
     box-sizing: border-box;
     display: inline-grid;
-    /* justify-content: space-around; */
   }
 
   /* This move the word 'About' */
   .title2 > h2 {
     margin-left: 0%;
     padding-left: 0%;
-}
+  }
 
-/* This moves my resume */
-.title2 > a {
-    margin-left: 0%;
-    padding-left: 0%;
-}
+  /* This moves my resume */
+  .title2 > a {
+      margin-left: 0%;
+      padding-left: 0%;
+  }
 
-hr {
-    margin: 20pt;
-}
+  /* This changes the hr margin on mobile */
+  hr {
+      margin: 20pt;
+  }
 
+  /* This decreases the gap between boxes on mobile. */
+  .white-text {
+    font-size: 0pt;
+  }
 
 }
