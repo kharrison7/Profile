@@ -136,3 +136,82 @@ a:hover {
 .white-text {
   color: white;
 }
+
+/* For mobile css (inside only  changes for small screens)*/
+@media only screen and (max-width: 600px) {
+  /*This controls the header on mobile.*/
+  .your_name{
+    width: 100%;
+    color: white;
+    background: #5499C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  /*This controls the profile image on mobile.*/
+  .img-circle {
+      margin-top: 20pt;
+      border-radius: 50%;
+      width: 120pt;
+      height: 120pt;
+      margin-left: 30%;
+  }
+
+  /*This holds the three items on mobile*/
+  .box_of_three{
+    width: 100%;
+    margin-top: 20pt;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+  /*This controls The Basics box on mobile*/
+  .title1 {
+    margin-left: 30%;
+  }
+
+  /*This controls The Story and content on mobile*/
+  .title2{
+    width: 30%;
+    margin-left: 30%;
+  }
+
+  /*This controls the story text.*/
+  .title2 > p {
+    border-left: 0px solid #C8C8C8;
+    margin-left: 0%;
+    padding-left: 0%;
+    line-height: 15pt;
+    width: 150%;
+  }
+
+  /*This controls the box of projects on mobile*/
+  .box_of_projects{
+    width: 100%;
+    margin-top: 20pt;
+    box-sizing: border-box;
+    display: inline-grid;
+    /* justify-content: space-around; */
+  }
+
+  /* This move the word 'About' */
+  .title2 > h2 {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+/* This moves my resume */
+.title2 > a {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+hr {
+    margin: 20pt;
+}
+
+
+}

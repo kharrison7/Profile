@@ -52,7 +52,7 @@ else{
                 </div>
                 <div class="title2">
                   <h2>About</h2>
-                  <p>I'm a full stack developer working primarily in JavaScript. I am currently at the North Carolina League of Municipalities</p>
+                  <p>I'm a full stack developer working primarily in JavaScript. I work for the North Carolina League of Municipalities.</p>
                   <a href="Kevin.Harrison.Resume.pdf">Resume</a>
                 </div>
               </div>
