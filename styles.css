@@ -96,8 +96,8 @@ a:hover {
   /* border : solid 5px #bfdfff; */
 	border-radius : 9px;
 	moz-border-radius : 9px;
-	-webkit-box-shadow : 2px 4px 4px rgba(0,0,0,0.9);
-	-moz-box-shadow : 2px 4px 4px rgba(0,0,0,0.9);
+	/* -webkit-box-shadow : 2px 4px 4px rgba(0,0,0,0.9); */
+	/* -moz-box-shadow : 2px 4px 4px rgba(0,0,0,0.9); */
 	box-shadow : 2px 4px 4px rgba(0,0,0,0.9);
 	font-size : 1em;
 	color : #ffffff;
