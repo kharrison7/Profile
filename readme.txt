@@ -1,5 +1,6 @@
 This profile page is built to display some of my projects.
 
-The next improvement is to make this project functional on mobile devices.
+My actual website:
+https://kevinkch.com/
 
-deployed: https://kharrison7.github.io/Profile/
+This repo deployed: https://kharrison7.github.io/Profile/ (old website)
